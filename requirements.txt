@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 fastapi[all]
+=======
+fastapi>=0.110
+uvicorn[standard]>=0.29
+>>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef
 langchain>=0.2
 langchain-community>=0.2
 langchain-groq>=0.1
 langchain-google-genai>=2.0
 langchain-core>=0.2
+<<<<<<< HEAD
 langchain-text-splitters>=0.2
+=======
+>>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef
 faiss-cpu>=1.8
 pypdf>=4.0
 python-dotenv>=1.0

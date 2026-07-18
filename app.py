@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 """
 This script is used to create the Streamlit frontend for the AI Chatbot
 """
 #Importing necessary libraries
+=======
+>>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef
 import streamlit as st
 import httpx
 
