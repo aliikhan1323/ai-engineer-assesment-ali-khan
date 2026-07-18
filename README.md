@@ -17,7 +17,7 @@ main.py              FastAPI app (POST /ask, /health)
 schemas.py           Pydantic schemas (QuestionRequest, AgentAnswer)
 agent.py             LangChain agent — binds tools to ChatGroq
 rag.py               PDF chunking + Gemini embeddings + FAISS index (built at startup)
-app.py               Streamlit frontend chatbot interface (ChatGPT UI)
+app.py               Streamlit frontend chatbot interface 
 run.py               Startup script to run backend and frontend concurrently
 tools/
   superhero_tool.py  Superhero API tool
@@ -44,11 +44,6 @@ cp .env.example .env
 #       GEMINI_API_KEY (https://aistudio.google.com/apikey)
 ```
 
-A sample PDF (`data/intro_to_ai.pdf`) is included. To regenerate it:
-
-```bash
-python scripts/create_sample_pdf.py
-```
 
 ## Run
 
