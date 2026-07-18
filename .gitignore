@@ -22,9 +22,4 @@ data/faiss_index/
 
 # OS
 .DS_Store
-<<<<<<< HEAD
 Thumbs.db
-=======
-Thumbs.db
-
->>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef

@@ -1,25 +1,14 @@
-<<<<<<< HEAD
 """Superhero API tool - queries the Superhero API for character data."""
 #Importing necessary libraries
-=======
-"""Superhero API tool – queries the Superhero API for character data."""
-
->>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef
 import os
 import httpx
 from langchain_core.tools import tool
 import logging
 
-<<<<<<< HEAD
 #Loggers
 logger = logging.getLogger(__name__)
 
 #This function is used to search the Superhero API for information relevant to a user query
-=======
-logger = logging.getLogger(__name__)
-
-
->>>>>>> 2e14aeff5efbb3b06bd3aa03a9da336262d6b7ef
 @tool
 def superhero_search(name: str) -> str:
     """Search for superhero information by name.
